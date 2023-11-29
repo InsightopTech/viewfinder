@@ -1,2 +1,15 @@
 syntax = "proto3";
 package serial;
+
+message Serial{
+    string name = 1;
+    string path = 2;
+    BaudRate baudRate = 3;
+}
+enum BaudRate{
+    BaudRate_9600 = 0;
+    BaudRate_19200 = 1;
+    BaudRate_38400 = 2;
+    BaudRate_57600 = 3;
+    BaudRate_115200 = 4;
+}

@@ -9,5 +9,6 @@
     "serde",
     "staticlib",
     "wasmtimer"
-  ]
+  ],
+  "rust-analyzer.linkedProjects": ["./native/hub/Cargo.toml"]
 }
