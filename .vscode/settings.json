@@ -6,6 +6,7 @@
     "gitsubmodule",
     "libc",
     "msgpack",
+    "Rinf",
     "serde",
     "staticlib",
     "wasmtimer"

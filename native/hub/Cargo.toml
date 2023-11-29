@@ -12,9 +12,9 @@ edition = "2021"
 crate-type = ["lib", "cdylib", "staticlib"]
 
 [dependencies]
-rinf = "4.17.1"
-tokio_with_wasm = "0.3.2"
-prost = "0.12.0"
+rinf = "4.17"
+tokio_with_wasm = "0.3"
+prost = "0.12"
 
 
 ################
@@ -25,4 +25,4 @@ gst_vid = { package = "gstreamer-video", version = "0.21" }
 
 [target.'cfg(target_os = "macos")'.dependencies]
 cocoa = "0.25"
-objc = "0.2.7"
+objc = "0.2"
