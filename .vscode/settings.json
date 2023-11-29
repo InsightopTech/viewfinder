@@ -3,6 +3,7 @@
     "bindgen",
     "bytemuck",
     "cdylib",
+    "gitsubmodule",
     "libc",
     "msgpack",
     "serde",
