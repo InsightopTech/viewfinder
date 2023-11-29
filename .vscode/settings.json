@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "bindgen",
+    "bytemuck",
+    "cdylib",
+    "libc",
+    "msgpack",
+    "serde",
+    "staticlib",
+    "wasmtimer"
+  ]
+}

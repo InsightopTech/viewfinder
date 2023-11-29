@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "dart-code.flutter",
+    "rust-lang.rust-analyzer",
+    "serayuzgur.crates",
+    "dart-code.dart-code",
+    "usernamehw.errorlens",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
+    "pkief.material-icon-theme",
+    "tamasfe.even-better-toml"
+  ]
+}

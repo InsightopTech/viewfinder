@@ -1,0 +1,6 @@
+syntax = "proto3";
+package gstreamer;
+
+message Gstreamer {
+    string verison = 1;
+}

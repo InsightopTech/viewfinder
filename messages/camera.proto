@@ -1,0 +1,7 @@
+syntax = "proto3";
+package camera;
+
+message Camera {
+  string name = 1;
+  int32 display_name = 2;
+}
