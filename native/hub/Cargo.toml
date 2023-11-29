@@ -14,9 +14,15 @@ crate-type = ["lib", "cdylib", "staticlib"]
 [dependencies]
 rinf = "4.17.1"
 tokio_with_wasm = "0.3.2"
-wasm-bindgen = "0.2.87"
 prost = "0.12.0"
 
 
 ################
-gst = {package = "gstreamer", version = "0.21"}
+glib = { package = "glib", version = "0.18" }
+gst = { package = "gstreamer", version = "0.21" }
+gst_app = { package = "gstreamer-app", version = "0.21" }
+gst_vid = { package = "gstreamer-video", version = "0.21" }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+cocoa = "0.25"
+objc = "0.2.7"
