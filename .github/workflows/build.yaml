@@ -84,6 +84,7 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y ninja-build libgtk-3-dev
           sudo apt-get install -y build-essential
+          sudo apt install -y pkg-config
           sudo apt-get install -y libunwind-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
 
       - name: Setup Java toolchain (Only Android target)
@@ -125,3 +126,11 @@ jobs:
       - name: Build iOS target
         if: matrix.target == 'ios'
         run: flutter build ios --no-codesign --verbose
+
+      ############## Upload artifacts ##############
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ matrix.runner }}_${{ matrix.target }}
+          path: |
+            build/${{ matrix.target }}
