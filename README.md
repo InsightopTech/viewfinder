@@ -1,9 +1,9 @@
 # viewfinder
 
-这是一个跨平台的相机取景器软件
+A cross-platform application for camera preview.
 
-|           | 实现                                                       |
-| --------- | ---------------------------------------------------------- |
-| Front-End | Dart <br/> Flutter                                         |
-| Bridge    | [rinf](https://pub.dev/packages/rinf)                      |
-| Back-End  | Rust <br/> [Gstreamer](https://crates.io/crates/gstreamer) |
+|           | Toolchain                                                                               |
+| --------- | --------------------------------------------------------------------------------------- |
+| Front-End | [Dart](https://dart.dev) <br/> [Flutter](https://flutter.dev)                           |
+| Bridge    | [rinf](https://pub.dev/packages/rinf) <br/> [Protobuf](https://protobuf.dev)            |
+| Back-End  | [Rust](https://www.rust-lang.org) <br/> [GStreamer](https://crates.io/crates/gstreamer) |

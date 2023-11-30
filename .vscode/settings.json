@@ -6,6 +6,7 @@
     "gitsubmodule",
     "libc",
     "msgpack",
+    "Protobuf",
     "Rinf",
     "serde",
     "staticlib",
