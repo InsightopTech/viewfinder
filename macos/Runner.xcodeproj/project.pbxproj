@@ -587,6 +587,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "For test";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "For test";
 				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -674,6 +675,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "For test";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "For test";
 				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -725,6 +727,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "For test";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "For test";
 				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;

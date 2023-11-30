@@ -5,12 +5,11 @@ use with_request::handle_request;
 mod bridge;
 mod gst_api;
 mod messages;
+mod run;
 mod with_request;
 
 async fn main() {
-    gst_api::info();
-
-    let pipeline = gst::Pipeline::new(); //构建pipeline
+    run::run(gst_api::gst_main);
 
     let mut request_receiver = bridge::get_request_receiver();
 
@@ -22,9 +21,4 @@ async fn main() {
             respond_to_dart(response_unique);
         });
     }
-}
-
-#[tokio::test]
-async fn test() {
-    main().await;
 }
