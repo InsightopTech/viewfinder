@@ -51,3 +51,5 @@ target/
 # Other
 *.lock
 .DS_Store
+native/hub/src/messages/*
+lib/messages/
