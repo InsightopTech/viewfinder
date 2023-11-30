@@ -2,8 +2,17 @@
 
 A cross-platform application for camera preview.
 
-|           | Toolchain                                                                               |
-| --------- | --------------------------------------------------------------------------------------- |
-| Front-End | [Dart](https://dart.dev) <br/> [Flutter](https://flutter.dev)                           |
-| Bridge    | [rinf](https://pub.dev/packages/rinf) <br/> [Protobuf](https://protobuf.dev)            |
-| Back-End  | [Rust](https://www.rust-lang.org) <br/> [GStreamer](https://crates.io/crates/gstreamer) |
+## Features
+
+|           | Toolchain                                                                          |
+| --------- | ---------------------------------------------------------------------------------- |
+| Front-End | [Flutter](https://flutter.dev), [Dart](https://dart.dev)                           |
+| Bridge    | [Protobuf](https://protobuf.dev), [rinf](https://pub.dev/packages/rinf)            |
+| Back-End  | [Rust](https://www.rust-lang.org), [GStreamer](https://crates.io/crates/gstreamer) |
+
+## Build
+
+```bash
+rinf message
+flutter run
+```

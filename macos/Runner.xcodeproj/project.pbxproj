@@ -24,7 +24,7 @@
 		1817B3B42B177EB600E53CD4 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1817B3AB2B1777F400E53CD4 /* GStreamer.framework */; };
 		1817B3B52B177EB600E53CD4 /* GStreamer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1817B3AB2B1777F400E53CD4 /* GStreamer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1817B3B72B177EBC00E53CD4 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1817B3AB2B1777F400E53CD4 /* GStreamer.framework */; };
-		1817B3B82B177EBC00E53CD4 /* GStreamer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1817B3AB2B1777F400E53CD4 /* GStreamer.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1817B3B82B177EBC00E53CD4 /* GStreamer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1817B3AB2B1777F400E53CD4 /* GStreamer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		24768940AB70B0B20FD31065 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290ED91BFF945F707E9E8264 /* Pods_RunnerTests.framework */; };
 		331C80D8294CF71000263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C80D7294CF71000263BE5 /* RunnerTests.swift */; };
 		335BBD1B22A9A15E00E9071D /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */; };
@@ -586,6 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For test";
 				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -672,6 +673,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For test";
 				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -722,6 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For test";
 				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GStreamer.framework/Libraries/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
