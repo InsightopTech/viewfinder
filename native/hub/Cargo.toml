@@ -13,7 +13,7 @@ crate-type = ["lib", "cdylib", "staticlib"]
 
 [dependencies]
 rinf = "4.17"
-tokio_with_wasm = "0.3"
+tokio_with_wasm = "0.4"
 prost = "0.12"
 
 
