@@ -18,7 +18,7 @@ prost = "0.12"
 
 
 ################
-glib = { package = "glib", version = "0.18" }
+glib = { package = "glib", version = "0.19" }
 gst = { package = "gstreamer", version = "0.21" }
 gst_app = { package = "gstreamer-app", version = "0.21" }
 gst_vid = { package = "gstreamer-video", version = "0.21" }
